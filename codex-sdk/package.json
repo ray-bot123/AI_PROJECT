@@ -1,0 +1,17 @@
+{
+  "name": "codex-sdk-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal examples for the official OpenAI Codex SDK.",
+  "scripts": {
+    "simple": "node examples/simple.js",
+    "stream": "node examples/streaming.js"
+  },
+  "dependencies": {
+    "@openai/codex-sdk": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

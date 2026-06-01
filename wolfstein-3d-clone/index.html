@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Keep 3D</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="game-frame" aria-label="Stone Keep 3D">
+        <canvas id="game" width="960" height="540"></canvas>
+        <div class="crosshair" aria-hidden="true"></div>
+        <div class="hud">
+          <div class="stat"><span>Health</span><strong id="health">100</strong></div>
+          <div class="stat"><span>Ammo</span><strong id="ammo">32</strong></div>
+          <div class="stat"><span>Score</span><strong id="score">0</strong></div>
+          <div class="stat"><span>Keys</span><strong id="keys">0</strong></div>
+        </div>
+        <div id="banner" class="banner">
+          <h1>Stone Keep 3D</h1>
+          <p>Click to lock aim. WASD moves, arrows turn, Shift runs, Space or click fires.</p>
+          <button id="start" type="button">Enter the Keep</button>
+        </div>
+      </section>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
